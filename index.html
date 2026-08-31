@@ -19,42 +19,13 @@
 <div class="alert"><strong>Ключевое правило:</strong> MAX закупка — финансовый потолок. Если поставщик выше него, позицию не берем в физический остаток.</div>
 <div id="metrics" class="metrics"></div>
 </section>
-
-<section id="catalog">
-<div class="section-head"><div><div class="kicker">01 · Товар</div><h2>Каталог закупки</h2></div><p>Фото, объем, количество, целевая закупка и наша розница.</p></div>
-<div class="image-mode-note">Фото загружается с источника · при блокировке показывается встроенная визуализация</div>
-<div class="toolbar"><input id="search" placeholder="Поиск: Ganymede, Montale..."><button data-filter="all">Все</button><button data-filter="Трафик">Трафик</button><button data-filter="Ядро">Ядро</button><button data-filter="Имидж">Имидж</button></div>
-<div id="catalogGrid" class="catalog"></div>
-</section>
-
-<section id="tender">
-<div class="section-head"><div><div class="kicker">02 · Цена</div><h2>Тендер поставщиков</h2></div><p>Пустая ячейка — публичный B2B-прайс по точному SKU пока не подтвержден.</p></div>
-<div id="tenderBox" class="tablebox"></div>
-</section>
-
-<section id="suppliers" class="supplier-table">
-<div class="section-head"><div><div class="kicker">03 · Каналы закупки</div><h2>Площадки и поставщики</h2></div><p>Отправляем одну матрицу нескольким поставщикам и собираем конкурентные предложения.</p></div>
-<div id="supplierBox" class="tablebox"></div>
-</section>
-
-<section id="request">
-<div class="section-head"><div><div class="kicker">04 · Коммуникация</div><h2>Готовый запрос прайса</h2></div></div>
-<div class="copybox"><pre id="requestText"></pre><button class="copybtn" id="copyBtn">Скопировать запрос</button></div>
-</section>
-
-<section id="actions">
-<div class="section-head"><div><div class="kicker">05 · Что делаем дальше</div><h2>Порядок запуска закупки</h2></div></div>
-<div class="steps">
-<div class="step"><b>ШАГ 1</b><strong>Отправить матрицу</strong><p>Сразу нескольким оптовикам.</p></div>
-<div class="step"><b>ШАГ 2</b><strong>Собрать цены</strong><p>Цена, формат, наличие, маркировка, документы и срок.</p></div>
-<div class="step"><b>ШАГ 3</b><strong>Отсечь красные</strong><p>Все выше MAX закупки не покупаем.</p></div>
-<div class="step"><b>ШАГ 4</b><strong>Первая закупка</strong><p>Собираем набор примерно на 180–250 тыс. ₽.</p></div>
-</div>
-</section>
+<section id="catalog"><div class="section-head"><div><div class="kicker">01 · Товар</div><h2>Каталог закупки</h2></div><p>Фото, объем, количество, целевая закупка и наша розница.</p></div><div class="image-mode-note">Фото загружается с источника · при блокировке показывается встроенная визуализация</div><div class="toolbar"><input id="search" placeholder="Поиск: Ganymede, Montale..."><button data-filter="all">Все</button><button data-filter="Трафик">Трафик</button><button data-filter="Ядро">Ядро</button><button data-filter="Имидж">Имидж</button></div><div id="catalogGrid" class="catalog"></div></section>
+<section id="tender"><div class="section-head"><div><div class="kicker">02 · Цена</div><h2>Тендер поставщиков</h2></div><p>Пустая ячейка — публичный B2B-прайс по точному SKU пока не подтвержден.</p></div><div id="tenderBox" class="tablebox"></div></section>
+<section id="suppliers" class="supplier-table"><div class="section-head"><div><div class="kicker">03 · Каналы закупки</div><h2>Площадки и поставщики</h2></div><p>Отправляем одну матрицу нескольким поставщикам и собираем конкурентные предложения.</p></div><div id="supplierBox" class="tablebox"></div></section>
+<section id="request"><div class="section-head"><div><div class="kicker">04 · Коммуникация</div><h2>Готовый запрос прайса</h2></div></div><div class="copybox"><pre id="requestText"></pre><button class="copybtn" id="copyBtn">Скопировать запрос</button></div></section>
+<section id="actions"><div class="section-head"><div><div class="kicker">05 · Что делаем дальше</div><h2>Порядок запуска закупки</h2></div></div><div class="steps"><div class="step"><b>ШАГ 1</b><strong>Отправить матрицу</strong><p>Сразу нескольким оптовикам.</p></div><div class="step"><b>ШАГ 2</b><strong>Собрать цены</strong><p>Цена, формат, наличие, маркировка, документы и срок.</p></div><div class="step"><b>ШАГ 3</b><strong>Отсечь красные</strong><p>Все выше MAX закупки не покупаем.</p></div><div class="step"><b>ШАГ 4</b><strong>Первая закупка</strong><p>Собираем набор примерно на 180–250 тыс. ₽.</p></div></div></section>
 <footer class="footer">Потенциальная выручка не равна прибыли. Перед оплатой поставщику обязательна проверка документов, маркировки и условий оборота tester / refill.</footer>
 </main>
 <script src="products.js"></script>
-<script src="tender.js"></script>
-<script src="meta.js"></script>
 <script src="app.js"></script>
 </body></html>
